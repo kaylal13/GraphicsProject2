@@ -61,8 +61,9 @@ class DrawPanel extends JPanel implements MouseListener {
                 }
 
                 if (button == 3 && cards[r][c].getHitbox().contains(p)) {
-                    cards[r][c].flipHighlight();
+
                 }
+
             }
         }
 
